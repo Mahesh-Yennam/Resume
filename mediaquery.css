@@ -1,0 +1,19 @@
+@page {
+  size: auto;
+  margin: 0mm;
+}
+@media print {
+  .btn {
+    display: none;
+  }
+  #main {
+    margin-top: 0px; 
+    /* border: 1px solid black; */
+  }
+  .top {
+    color: white;
+    background-color: rgb(100, 100, 100);
+    /* color: black; */
+    /* border-bottom: 1px solid #c7c7c7; */
+  }
+}

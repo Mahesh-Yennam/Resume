@@ -1,0 +1,194 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); */
+/* *{font-family:'Nunito', sans-serif;} */
+*{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+body {
+    /* background-color: rgb(240, 240, 240); */
+    background: linear-gradient(178deg, #482feb, #9824ff);
+}
+
+#main {
+    height: 1123px;
+    width: 794px;
+    /* height: 1150px; */
+    /* width: 800px; */
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    background-color: white;
+    margin: 10px auto 10px auto;
+    /* border: 1px solid; */
+}
+/* ------------------------- */
+.btn {
+    width: 270px;
+    height: 270px;
+    /* margin: 10px auto; */
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    font-size: medium;
+    padding: 5px;
+    background-color: hsl(213deg 71% 49%);
+    border: 1px solid hsl(213deg 71% 49%);
+    border-radius: 5px;
+    color: white;
+}
+button:hover {
+    border-color: hsl(213deg 71% 29%);
+    background-color: hsl(216deg 82% 31%);
+}
+button:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+}
+/* ------------------------- */
+
+.clearfix {
+    clear: both;
+}
+
+.top {
+    color: white;
+    background-color: rgb(100, 100, 100);
+    /* border-bottom: 1px rgb(100, 100, 100) solid; */
+    /* background-color: rgb(54, 54, 54); */
+    padding: 40px 40px 0 40px;
+}
+
+.col-sm-6{
+    width: 50%; float: left;
+    /* border: 1px solid; */
+}
+
+.profile{
+    width: 130px;
+    /* height: 100px; */
+    float: left;
+    margin-right: 10px;
+    /* border: 1px solid; */
+}
+
+.name{
+    letter-spacing: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 39px;
+    margin: 5px 0px 10px 20px;
+    float: left;
+    font-weight: 900;
+}
+
+.name_p{
+    margin: 3px 0px 0px 20px;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contat_p {
+    padding-bottom: 15px;
+}
+
+.contat_p a{
+    color: skyblue;
+    /* color: purple; */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ------------------------- */
+
+.col-div-4 {
+    width: 30%;
+    float: left;
+}
+
+.col-div-8 {
+    width: 67%;
+    float: left;
+}
+
+.line {
+    border-left: 1px solid #c7c7c7;
+    height: 850px;
+    width: 2%;
+    margin-top: 30px;
+    float: left;
+}
+
+.content-box{
+    padding: 10px;
+}
+
+.head{
+    margin: 5px auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.skills {
+    /* margin-left: -20px; */
+    margin-bottom: 0px;
+    list-style-type: none;
+}
+
+
+.skills li {
+    padding: 2px 5px 2px 0px;
+}
+
+.p1 {
+    padding: 2px 5px 2px 0px;
+}
+
+.p2 {
+    /* border: 1px solid; */
+    margin-bottom: -10px;
+    text-align: justify;
+}
+
+.p6 {
+    /* border: 1px solid; */
+    margin-bottom: -15px;
+    text-align: justify;
+}
+
+.p3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.experience {
+    margin-bottom: -5px;
+    padding-left: 20px;
+    list-style-type: square;
+    text-align: justify;
+}
+
+.experience li {
+    margin-bottom: 5px;
+}
+/* .p4 {
+    font-weight: 600;
+} */
+
+.p5 {
+    padding-bottom: 10px;
+}
